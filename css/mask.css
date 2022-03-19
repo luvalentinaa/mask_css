@@ -1,0 +1,24 @@
+body{
+  background-color: #292828;
+}
+.section{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.text h1{
+  width: 600px;
+  height: 500px;
+  background-image: url(../grafite.png);
+  -webkit-mask-image: url(../text.png);
+  mask-image: url(../grafite.png);
+}
+.masked {
+  width: 500px;
+  height: 500px;
+  background-image: url(../grafite.png);
+  -webkit-mask-image: url(../image.png);
+  mask-image: url(../grafite.png);
+}
